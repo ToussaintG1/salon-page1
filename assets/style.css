@@ -221,30 +221,9 @@ span {
       }
       .side-bar {
         visibility: hidden;
-        width: 50px;
-        height: 100vh;
-        background-image: linear-gradient(to bottom right, #121C84, #8278DA);
-        position: fixed;
-        right: 0;
-        top: 0;
-        z-index: 1;
       }
     
-      /* .side-bar {
-        width: 100%;
-        height: 50px;
-        top: auto;
-        bottom: 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-image: linear-gradient(to bottom right, #121C84, #8278DA);
-        padding: 0 10px;
-        box-sizing: border-box;
-        /* position: unset; */
-        z-index: 1;
-        position: fixed;
-      } */
+  
       .social-links {
         width: auto;
         position: unset;
@@ -283,7 +262,6 @@ span {
         width: 300px;
       }
       .what-we-do p {
-        
         margin-left: 15px;
         width: 350px;
         color: white;
@@ -309,5 +287,199 @@ span {
         grid-row: 2 / span 2;
         border: white solid 5px;
       }
+      /* Client */
+      .client {
+        background-color: black;
+        padding-bottom: 50px;
+      }
+      .client h1 {
+        padding-top: 50px;
+        color: white;
+        text-align: center;
+        font-family: cursive;
+      }
+      .video {
+        padding-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 800px;
+      }
+      .client h2 {
+        padding-top: 10px;
+        color: white;
+        text-align: center;
+        font-size: 2.5em;
+      }
+      .client h3 {
+        padding-top: 10px;
+        color: white;
+        text-align: center;
+        font-size: 2.5em;
+        font-family: cursive;
+      }
+      iframe {
+        width: 350px;
+        margin-top: 30px;
+        margin-left: 75px;
+        }
+/* Why Choose Advert Logix */
+.why {
+  padding-top: 100px;
+  background-color: rgb(240, 240, 240);
+  padding-bottom: 50px;
+}
+.why h4 {
+  margin-top: px;
+}
+.why h1 {
+  margin-bottom: 10px;
+}
 
+.why img {
+  width: 500px;
+  margin-top: -175px;
+  margin-bottom: 25px;
+}
+.why ul {
+  list-style: none;
+  background-color: rgb(240, 240, 240);
+  margin-bottom: 50px;
+  
+}
+.what-we-do p {
+  width: 350px;
+  color: white;
+  padding-bottom: 200px;
+}
+
+#why-ul li:before {
+  content: '✓';
+  margin-left: 18px;
+  margin-right: 7px;
+}
+.tagline3 {
+  margin-top: 20px;
+}
+.tagline3 h4 {
+  color: #00FFFF;
+  margin-left: 30px;
+}
+.heading3 h1 {
+  padding-top: 15px;
+  font-size: 33px;
+  line-height: 50px;
+  margin-left: 30px;
+  color: black;
+  width: 400px;
+}
+.marketing-img img{
+  width: 50%;
+  margin-left: 100px;
+  border: #00FFFF solid 2px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+  .why p {
+    display: block;
+    margin: -100px 10px 100px 20px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+  }
+ /* Strategy */
+  .strategy {
+    padding-top: 50px;
+    background-color: white;
+    margin-top: 100px;
+  }
+  .strategy h3 {
+    margin-left: 20px;
+  
+  }
+  .center p {
+    padding-top: 100px;
+  }
+  .strategy h1 {
+    margin-left: 20px;
+  }
+  
+  .strategy h4 {
+    margin-left: 20px;
+    margin-top: -150px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+.unordered-list ul{
+  width: 450px;
+  background-color: white;
+    list-style: circle;
+  }
+ 
+  .strategy img {
+    border-bottom-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(255, 255, 255);
+  border-left-style: solid;
+  border-left-width: 6px;
+  border-right-color: rgb(255, 255, 255);
+  border-right-style: solid;
+  border-right-width: 6px;
+  border-top-color: rgb(255, 255, 255);
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-top-style: solid;
+  border-top-width: 6px;
+  box-shadow: rgb(204, 204, 204) 1px 4px 6px 0px;
+  box-sizing: border-box;
+  color: rgb(72, 73, 78);
+  display: block;
+  font-family: gordita;
+  font-size: 16px;
+  font-weight: 400;
+  height: 150px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 0px;
+  margin-top: 0px;
+  max-width: 100%;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-align: start;
+  vertical-align: middle;
+  width: 150px;
+  }
+  /* footer */
+  .footer {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    background-color: black;
+    text-align: center;
+  
+  
+  }
+  .footer h1 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+  }
+  .footer h3 {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: 18px;
+  }
   }
