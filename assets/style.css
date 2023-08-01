@@ -462,6 +462,12 @@ span {
   vertical-align: middle;
   width: 150px;
   }
+  /* Calendly Widgit */
+  .calendly-inline-widget {
+    margin-top: 50px;
+    padding-right: 50px;
+    margin-right: 100px;
+  }
   /* footer */
   .footer {
     margin-top: 100px;
